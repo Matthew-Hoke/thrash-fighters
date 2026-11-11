@@ -1,0 +1,17 @@
+.tools/
+build/
+**/.godot/
+**/bin/
+**/obj/
+
+# Local settings, logs, and credentials
+.vs/
+*.user
+*.log
+*.pdb
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12

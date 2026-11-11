@@ -1,0 +1,63 @@
+{
+  "kitsune": {
+    "name": "Kitsune", "weight": 83, "height": 30, "width": 25,
+    "jumpSquat": 3, "walk": 1730, "dash": 4400, "run": 4120, "runAcceleration": 670, "traction": 310,
+    "shortHop": 5250, "fullHop": 8600, "doubleJump": 8200, "gravity": 435,
+    "fallSpeed": 5400, "fastFall": 7650, "airSpeed": 3200, "airAcceleration": 315,
+    "airDodge": 7840, "recoveryRise": 10700,
+    "moves": {
+      "Jab":        {"name":"Claw",       "startup":2, "active":3, "recovery":9,  "landing":0,  "offsetX":19, "offsetY":-16, "radius":12, "damage":4,  "angle":28,  "base":1740, "growth":1900},
+      "Tilt":       {"name":"Tail Cut",   "startup":5, "active":4, "recovery":14, "landing":0,  "offsetX":25, "offsetY":-15, "radius":15, "damage":9,  "angle":34,  "base":2850, "growth":4250},
+      "UpTilt":     {"name":"Moon Tail",  "startup":5, "active":5, "recovery":13, "landing":0,  "offsetX":8,  "offsetY":-34, "radius":18, "damage":8,  "angle":84,  "base":3200, "growth":4050},
+      "DownTilt":   {"name":"Low Sweep",  "startup":5, "active":4, "recovery":14, "landing":0,  "offsetX":22, "offsetY":-5,  "radius":13, "damage":7,  "angle":66,  "base":2850, "growth":3800},
+      "Dash":       {"name":"Pounce",     "startup":5, "active":6, "recovery":18, "landing":0,  "offsetX":20, "offsetY":-15, "radius":17, "damage":10, "angle":54,  "base":3400, "growth":4550},
+      "Smash":      {"name":"Nine Tails", "startup":12,"active":5, "recovery":25, "landing":0,  "offsetX":29, "offsetY":-15, "radius":21, "damage":17, "angle":28,  "base":4900, "growth":8200},
+      "NeutralAir": {"name":"Ember Ring", "startup":4, "active":9, "recovery":17, "landing":14, "offsetX":4,  "offsetY":-14, "radius":23, "damage":8,  "angle":34,  "base":2500, "growth":3650},
+      "ForwardAir": {"name":"Fire Claw",  "startup":6, "active":5, "recovery":21, "landing":16, "offsetX":22, "offsetY":-16, "radius":18, "damage":11, "angle":34,  "base":3250, "growth":5650},
+      "BackAir":    {"name":"Tail Snap",  "startup":5, "active":6, "recovery":21, "landing":16, "offsetX":-22,"offsetY":-15, "radius":18, "damage":12, "angle":25,  "base":3650, "growth":6250},
+      "UpAir":      {"name":"Fox Moon",   "startup":5, "active":5, "recovery":18, "landing":13, "offsetX":4,  "offsetY":-36, "radius":18, "damage":9,  "angle":82,  "base":3150, "growth":5050},
+      "DownAir":    {"name":"Falling Ash","startup":7, "active":7, "recovery":22, "landing":20, "offsetX":5,  "offsetY":3,   "radius":16, "damage":12, "angle":-68, "base":3650, "growth":5400},
+      "Grab":       {"name":"Fox Snare",  "startup":5, "active":3, "recovery":20, "landing":0,  "offsetX":16, "offsetY":-15, "radius":11, "damage":7,  "angle":52,  "base":3400, "growth":4100},
+      "Special":    {"name":"Foxfire",    "startup":10,"active":7, "recovery":20, "landing":18, "offsetX":31, "offsetY":-17, "radius":19, "damage":13, "angle":41,  "base":3800, "growth":6500},
+      "Recovery":   {"name":"Fire Ascent","startup":4, "active":12,"recovery":5,  "landing":20, "offsetX":4,  "offsetY":-30, "radius":20, "damage":10, "angle":68,  "base":3600, "growth":4550}
+    }
+  },
+  "oni": {
+    "name": "Oni", "weight": 121, "height": 38, "width": 32,
+    "jumpSquat": 5, "walk": 1360, "dash": 3520, "run": 3640, "runAcceleration": 525, "traction": 560,
+    "shortHop": 5650, "fullHop": 8750, "doubleJump": 8140, "gravity": 505,
+    "fallSpeed": 6200, "fastFall": 8450, "airSpeed": 2850, "airAcceleration": 245,
+    "airDodge": 7500, "recoveryRise": 10000,
+    "moves": {
+      "Jab":        {"name":"Iron Palm",  "startup":3, "active":3, "recovery":11, "landing":0,  "offsetX":22, "offsetY":-21, "radius":13, "damage":6,  "angle":27,  "base":1950, "growth":2050},
+      "Tilt":       {"name":"Club Swing", "startup":7, "active":5, "recovery":17, "landing":0,  "offsetX":29, "offsetY":-18, "radius":19, "damage":12, "angle":37,  "base":3100, "growth":4800},
+      "UpTilt":     {"name":"Bell Ringer","startup":7, "active":6, "recovery":16, "landing":0,  "offsetX":9,  "offsetY":-42, "radius":22, "damage":10, "angle":83,  "base":3400, "growth":4650},
+      "DownTilt":   {"name":"Stone Kick", "startup":7, "active":4, "recovery":19, "landing":0,  "offsetX":25, "offsetY":-6,  "radius":15, "damage":9,  "angle":65,  "base":3100, "growth":4150},
+      "Dash":       {"name":"Shoulder",   "startup":7, "active":6, "recovery":22, "landing":0,  "offsetX":23, "offsetY":-19, "radius":20, "damage":13, "angle":42,  "base":3700, "growth":4900},
+      "Smash":      {"name":"Mountain Split", "startup":15,"active":6,"recovery":30,"landing":0, "offsetX":36, "offsetY":-18, "radius":24, "damage":22, "angle":32,  "base":5950, "growth":9100},
+      "NeutralAir": {"name":"Club Wheel", "startup":6, "active":10,"recovery":18, "landing":16, "offsetX":5,  "offsetY":-18, "radius":27, "damage":11, "angle":34,  "base":2900, "growth":4250},
+      "ForwardAir": {"name":"Falling Club","startup":9,"active":6, "recovery":22, "landing":20, "offsetX":28, "offsetY":-14, "radius":21, "damage":15, "angle":32,  "base":4150, "growth":6850},
+      "BackAir":    {"name":"Horn Strike", "startup":7, "active":5, "recovery":24, "landing":19, "offsetX":-26,"offsetY":-20, "radius":20, "damage":14, "angle":27,  "base":4200, "growth":6650},
+      "UpAir":      {"name":"Sky Hammer",  "startup":7, "active":6, "recovery":20, "landing":16, "offsetX":5,  "offsetY":-42, "radius":22, "damage":12, "angle":80,  "base":3700, "growth":5600},
+      "DownAir":    {"name":"Thunder Heel","startup":10,"active":6, "recovery":25, "landing":22, "offsetX":7,  "offsetY":3,   "radius":19, "damage":17, "angle":-68, "base":4700, "growth":6450},
+      "Grab":       {"name":"Iron Grip",   "startup":7, "active":3, "recovery":23, "landing":0,  "offsetX":19, "offsetY":-20, "radius":13, "damage":10, "angle":48,  "base":4050, "growth":4350},
+      "Special":    {"name":"Demon Roar",  "startup":12,"active":8, "recovery":24, "landing":21, "offsetX":32, "offsetY":-19, "radius":24, "damage":16, "angle":39,  "base":4600, "growth":7050},
+      "Recovery":   {"name":"Horn Charge", "startup":5, "active":13,"recovery":4,  "landing":24, "offsetX":6,  "offsetY":-35, "radius":24, "damage":12, "angle":70,  "base":4250, "growth":4900}
+    }
+  },
+  "shrine": {
+    "spawnLeft": 234, "spawnRight": 406,
+    "blastLeft": -100, "blastRight": 740, "blastTop": -135, "blastBottom": 442,
+    "surfaces": [
+      {"left":112,"right":528,"y":256,"passThrough":false},
+      {"left":158,"right":263,"y":204,"passThrough":true},
+      {"left":377,"right":482,"y":204,"passThrough":true},
+      {"left":268,"right":372,"y":153,"passThrough":true}
+    ]
+  },
+  "dojo": {
+    "spawnLeft": 260, "spawnRight": 380,
+    "blastLeft": -100, "blastRight": 740, "blastTop": -135, "blastBottom": 442,
+    "surfaces": [{"left":82,"right":558,"y":256,"passThrough":false}]
+  }
+}

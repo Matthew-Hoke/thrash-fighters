@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Thrash Fighters",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build Thrash Fighters",
+      "program": "${workspaceFolder}/.tools/godot/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64.exe",
+      "args": ["--path", "${workspaceFolder}/game"],
+      "cwd": "${workspaceFolder}/game",
+      "env": {
+        "DOTNET_ROOT": "${workspaceFolder}/.tools/dotnet",
+        "PATH": "${workspaceFolder}/.tools/dotnet;${env:PATH}"
+      },
+      "stopAtEntry": false
+    }
+  ]
+}

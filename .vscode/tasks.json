@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Thrash Fighters",
+      "type": "process",
+      "command": "${workspaceFolder}/.tools/dotnet/dotnet.exe",
+      "args": ["build", "${workspaceFolder}/game/ThrashFighters.csproj"],
+      "options": {
+        "env": {
+          "DOTNET_CLI_HOME": "${workspaceFolder}/.tools",
+          "NUGET_PACKAGES": "${workspaceFolder}/.tools/nuget/packages"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

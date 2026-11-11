@@ -1,0 +1,30 @@
+config_version=5
+
+[application]
+
+config/name="Thrash Fighters"
+run/main_scene="res://Scenes/ThrashFighters.tscn"
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+
+[dotnet]
+
+project/assembly_name="ThrashFighters"
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.0627, 0.0824, 0.1137, 1)
